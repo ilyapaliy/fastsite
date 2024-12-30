@@ -1,0 +1,250 @@
+* {
+	font-family: Verdana,Geneva,sans-serif;
+	color: black;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
+
+.dad-container {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	padding-bottom: 80px;
+	background-color: #666;
+}
+
+.header {
+	background-color: #555;
+}
+
+.logo {
+	padding-top: 8px;
+}
+
+.up-menu {
+	background-color: #888;
+	padding-top: 8px;
+}
+
+.left-menu {
+	padding: 10px 10px 10px 15px;
+	background-color: #777;
+}
+
+.main {
+	padding: 10px 15px 10px 10px;
+	background-color: #666;
+	font-size: 0.9em;
+}
+
+.footer {
+	height: 80px;
+	margin-top: -80px;
+	background-color: #888;
+}
+
+.left {
+	padding-top: 5px;
+	font-size: 0.9em;
+}
+
+.right {
+	text-align: right;
+	padding-top: 25px;
+}
+/*//////////////REGLOG///////////////////*/
+.log-page {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background-color: #666;
+}
+
+.log-box {
+	margin: 0;
+	min-height: 100vh;
+}
+
+.log {
+	background-color: #555;
+	padding: 10px;
+}
+
+.welcome {
+	text-align: center;
+}
+
+.margin5 {
+	margin: 5px;
+}
+
+.reglog {
+	padding-left: 0px;
+}
+
+.reglogbtn {
+	padding: 3px 6px 3px 6px;
+}
+/*///////////ARTICLE_POPUP////////////*/
+.article {
+	background-color: #666;
+	margin: 3px 0px 3px 0px;
+	padding: 0px 3px 0px 3px;
+}
+
+.content{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.backout {
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.photo-form {
+/*	min-height: 100vh;*/
+/*	min-width: 100vw;*/
+}
+
+.art {
+	background-color: #555;
+	margin: 15px 0px 15px 0px;
+	padding: 5px;
+	border-radius: 15px;
+	border: 8px solid #444;
+}
+
+.alert, .alert-file {
+	visibility: hidden;
+	position: absolute;
+}
+
+.popup_row {
+	padding: 0px;
+	margin: 0px;
+}
+
+.popup_title, .popup_name_file {
+	background-color: #555 !important;
+	border-radius: 10px;
+	border: 5px solid #444;
+	padding: 0px 10px 0px 10px;
+}
+
+.popup_text, .popup_img_file {
+	background-color: #555;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px solid #444;
+}
+
+#file {
+	display: none;
+}
+
+.popup_footer, popup_title {
+	margin: 0px;
+}
+
+.artftrbtn {
+	background-color:  #555;
+	padding: 0px 10px 0px 10px;
+	border-radius: 10px;
+	border: 5px solid #444;
+	cursor: pointer;
+}
+
+#art_close {
+}
+
+#art_save {
+	margin: 0px 0px 0px 5px;
+}
+
+.icon {
+	height: 16px;
+	width: 16px;
+	margin: 2px 4px 4px 4px;
+}
+/*///////////TILES    PHOTO////////////*/
+.tiles {
+	justify-content: center;
+	padding: 15px 0px 15px 0px;
+	display: grid;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	grid-template-columns: repeat(auto-fit, 110px);
+	grid-auto-rows: 110px;
+}
+
+.tile {
+	border-radius: 10%;
+/*	background: #888 url(https://i.pinimg.com/originals/80/31/9c/80319c25cacec1a048e5d122d997c02e.jpg);
+	background-size: contain;*/
+	margin: 0px;
+	padding: 3px;
+	cursor: pointer;
+	/*justify-content: center;*/
+	text-align: center;
+    line-height: 84px;
+    vertical-align: top;
+}
+
+.tile-btn-row {
+	display: flex;
+	width: 104px;
+	height: 20px;
+	padding-top: 4px;
+	justify-content: flex-end;
+}
+
+.icon_tile {
+	margin: 0px 0px 0px 3px;
+	opacity: 0.3;
+	border-radius: 8px;
+	background: #fff;
+	display: flex;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.tile_little_icon {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+
+.plus {
+	font-size: 7rem;
+	background: #888;
+	text-align: center;
+}
+
+.img-name {
+	opacity: 0.3;
+	border-radius: 8px;
+	background: #fff;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: bottom;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 58px;
+    width: 104px;
+    height: 26px;
+    font-size: 0.7rem;
+}
